@@ -1,0 +1,196 @@
+KBD	ArabicNG	"Arabic NG Keyboard Layout"
+
+COPYRIGHT	"(c) Nick Guerrera"
+
+COMPANY	"Nick Guerrera"
+
+LOCALENAME	"ar-LB"
+
+LOCALEID	"00003001"
+
+VERSION	1.0
+
+SHIFTSTATE
+
+0	//Column 4
+1	//Column 5 : Shft
+2	//Column 6 :       Ctrl
+6	//Column 7 :       Ctrl Alt
+7	//Column 8 : Shft  Ctrl Alt
+
+LAYOUT		;an extra '@' at the end is a dead key
+
+//SC	VK_		Cap	0	1	2	6	7
+//--	----		----	----	----	----	----	----
+
+02	1		0	-1	0021	-1	1	-1		// <none>, EXCLAMATION MARK, <none>, DIGIT ONE, <none>
+03	2		0	0621	0040	-1	2	-1		// ARABIC LETTER HAMZA, COMMERCIAL AT, <none>, DIGIT TWO, <none>
+04	3		0	0639	0023	-1	3	-1		// ARABIC LETTER AIN, NUMBER SIGN, <none>, DIGIT THREE, <none>
+05	4		0	-1	0024	-1	4	-1		// <none>, DOLLAR SIGN, <none>, DIGIT FOUR, <none>
+06	5		0	062e	066a	-1	5	0025		// ARABIC LETTER KHAH, ARABIC PERCENT SIGN, <none>, DIGIT FIVE, PERCENT SIGN
+07	6		0	-1	005e	-1	6	-1		// <none>, CIRCUMFLEX ACCENT, <none>, DIGIT SIX, <none>
+08	7		0	062d	0026	-1	7	-1		// ARABIC LETTER HAH, AMPERSAND, <none>, DIGIT SEVEN, <none>
+09	8		0	063a	002a	-1	8	-1		// ARABIC LETTER GHAIN, ASTERISK, <none>, DIGIT EIGHT, <none>
+0a	9		0	-1	0028	-1	9	-1		// <none>, LEFT PARENTHESIS, <none>, DIGIT NINE, <none>
+0b	0		0	-1	0029	-1	0	-1		// <none>, RIGHT PARENTHESIS, <none>, DIGIT ZERO, <none>
+0c	OEM_MINUS	0	002d	0640	-1	-1	005f		// HYPHEN-MINUS, ARABIC TATWEEL, <none>, <none>, LOW LINE
+0d	OEM_PLUS	0	003d	002b	-1	-1	-1		// EQUALS SIGN, PLUS SIGN, <none>, <none>, <none>
+10	Q		0	0642	0661	-1	-1	-1		// ARABIC LETTER QAF, ARABIC-INDIC DIGIT ONE, <none>, <none>, <none>
+11	W		0	062b	0662	-1	-1	-1		// ARABIC LETTER THEH, ARABIC-INDIC DIGIT TWO, <none>, <none>, <none>
+12	E		0	0625	0663	-1	-1	-1		// ARABIC LETTER ALEF WITH HAMZA BELOW, ARABIC-INDIC DIGIT THREE, <none>, <none>, <none>
+13	R		0	0631	0664	-1	-1	-1		// ARABIC LETTER REH, ARABIC-INDIC DIGIT FOUR, <none>, <none>, <none>
+14	T		0	062a	0665	-1	-1	-1		// ARABIC LETTER TEH, ARABIC-INDIC DIGIT FIVE, <none>, <none>, <none>
+15	Y		0	0649	0666	-1	-1	-1		// ARABIC LETTER ALEF MAKSURA, ARABIC-INDIC DIGIT SIX, <none>, <none>, <none>
+16	U		0	0648	0667	-1	-1	-1		// ARABIC LETTER WAW, ARABIC-INDIC DIGIT SEVEN, <none>, <none>, <none>
+17	I		0	064a	0668	-1	-1	-1		// ARABIC LETTER YEH, ARABIC-INDIC DIGIT EIGHT, <none>, <none>, <none>
+18	O		0	0629	0669	-1	-1	-1		// ARABIC LETTER TEH MARBUTA, ARABIC-INDIC DIGIT NINE, <none>, <none>, <none>
+19	P		0	067e	0660	-1	-1	-1		// ARABIC LETTER PEH, ARABIC-INDIC DIGIT ZERO, <none>, <none>, <none>
+1a	OEM_4		0	005b	007b	001b	-1	-1		// LEFT SQUARE BRACKET, LEFT CURLY BRACKET, ESCAPE, <none>, <none>
+1b	OEM_6		0	005d	007d	001d	-1	-1		// RIGHT SQUARE BRACKET, RIGHT CURLY BRACKET, INFORMATION SEPARATOR THREE, <none>, <none>
+1e	A		0	0627	-1	-1	-1	-1		// ARABIC LETTER ALEF, <none>, <none>, <none>, <none>
+1f	S		0	0633	-1	-1	-1	-1		// ARABIC LETTER SEEN, <none>, <none>, <none>, <none>
+20	D		0	062f	-1	-1	-1	-1		// ARABIC LETTER DAL, <none>, <none>, <none>, <none>
+21	F		0	0641	-1	-1	-1	-1		// ARABIC LETTER FEH, <none>, <none>, <none>, <none>
+22	G		0	06af	-1	-1	-1	-1		// ARABIC LETTER GAF *, <none>, <none>, <none>, <none>
+23	H		0	0647	-1	-1	-1	-1		// ARABIC LETTER HEH, <none>, <none>, <none>, <none>
+24	J		0	062c	066c	-1	-1	-1		// ARABIC LETTER JEEM, ARABIC THOUSANDS SEPARATOR, <none>, <none>, <none>
+25	K		0	0643	066b	-1	-1	-1		// ARABIC LETTER KAF, ARABIC DECIMAL SEPARATOR, <none>, <none>, <none>
+26	L		0	0644	061b	-1	-1	-1		// ARABIC LETTER LAM, ARABIC SEMICOLON, <none>, <none>, <none>
+27	OEM_1		0	003b@	003a	-1	-1	-1		// SEMICOLON, COLON, <none>, <none>, <none>
+28	OEM_7		0	0027@	0022	-1	-1	-1		// APOSTROPHE, QUOTATION MARK, <none>, <none>, <none>
+29	OEM_3		0	0060	007e	-1	-1	-1		// GRAVE ACCENT, TILDE, <none>, <none>, <none>
+2b	OEM_5		0	005c	007c	001c	-1	-1		// REVERSE SOLIDUS, VERTICAL LINE, INFORMATION SEPARATOR FOUR, <none>, <none>
+2c	Z		0	0632	-1	-1	-1	-1		// ARABIC LETTER ZAIN, <none>, <none>, <none>, <none>
+2d	X		0	0630	-1	-1	-1	-1		// ARABIC LETTER THAL, <none>, <none>, <none>, <none>
+2e	C		0	0634	-1	-1	-1	-1		// ARABIC LETTER SHEEN, <none>, <none>, <none>, <none>
+2f	V		0	06a4	-1	-1	-1	-1		// ARABIC LETTER VEH, <none>, <none>, <none>, <none>
+30	B		0	0628	-1	-1	-1	-1		// ARABIC LETTER BEH, <none>, <none>, <none>, <none>
+31	N		0	0646	-1	-1	-1	-1		// ARABIC LETTER NOON, <none>, <none>, <none>, <none>
+32	M		0	0645	-1	-1	-1	-1		// ARABIC LETTER MEEM, <none>, <none>, <none>, <none>
+33	OEM_COMMA	0	060c	003c	-1	002c	-1		// ARABIC COMMA, LESS-THAN SIGN, <none>, COMMA, <none>
+34	OEM_PERIOD	0	002e	003e	-1	-1	-1		// FULL STOP, GREATER-THAN SIGN, <none>, <none>, <none>
+35	OEM_2		0	002f	061f	-1	-1	003f		// SOLIDUS, ARABIC QUESTION MARK, <none>, <none>, QUESTION MARK
+39	SPACE		0	0020	0020	0020	-1	-1		// SPACE, SPACE, SPACE, <none>, <none>
+56	OEM_102	0	005c	007c	001c	-1	-1		// REVERSE SOLIDUS, VERTICAL LINE, INFORMATION SEPARATOR FOUR, <none>, <none>
+53	DECIMAL	0	002e	002e	-1	-1	-1		// FULL STOP, FULL STOP, , , 
+
+
+DEADKEY	003b
+
+0633	0635	// س -> ص
+062f	0636	// د -> ض
+062a	0637	// ت -> ط
+0632	0638	// ز -> ظ
+0627	064e	// ا -> َ
+0648	064f	// و -> ُ
+0646	064b	// ن -> ً
+0645	064c	// م -> ٌ
+0643	064d	// ك -> ٍ
+0625	0650	// إ -> ِ
+062b	0651	// ث -> ّ
+0629	0652	// ة -> ْ
+0020	003b	//   -> ;
+
+DEADKEY	0027
+
+0627	0623	// ا -> أ
+0625	0622	// إ -> آ
+0648	0624	// و -> ؤ
+064a	0626	// ي -> ئ
+0020	0027	//   -> '
+
+
+KEYNAME
+
+01	Esc
+0e	Backspace
+0f	Tab
+1c	Enter
+1d	Ctrl
+2a	Shift
+36	"Right Shift"
+37	"Num *"
+38	Alt
+39	Space
+3a	"Caps Lock"
+3b	F1
+3c	F2
+3d	F3
+3e	F4
+3f	F5
+40	F6
+41	F7
+42	F8
+43	F9
+44	F10
+45	Pause
+46	"Scroll Lock"
+47	"Num 7"
+48	"Num 8"
+49	"Num 9"
+4a	"Num -"
+4b	"Num 4"
+4c	"Num 5"
+4d	"Num 6"
+4e	"Num +"
+4f	"Num 1"
+50	"Num 2"
+51	"Num 3"
+52	"Num 0"
+53	"Num Del"
+54	"Sys Req"
+57	F11
+58	F12
+7c	F13
+7d	F14
+7e	F15
+7f	F16
+80	F17
+81	F18
+82	F19
+83	F20
+84	F21
+85	F22
+86	F23
+87	F24
+
+KEYNAME_EXT
+
+1c	"Num Enter"
+1d	"Right Ctrl"
+35	"Num /"
+37	"Prnt Scrn"
+38	"Right Alt"
+45	"Num Lock"
+46	Break
+47	Home
+48	Up
+49	"Page Up"
+4b	Left
+4d	Right
+4f	End
+50	Down
+51	"Page Down"
+52	Insert
+53	Delete
+54	<00>
+56	Help
+5b	"Left Windows"
+5c	"Right Windows"
+5d	Application
+
+KEYNAME_DEAD
+
+003b	"SEMICOLON"
+0027	"APOSTROPHE"
+
+
+DESCRIPTIONS
+
+0409	Arabic (NG)
+
+LANGUAGENAMES
+
+0409	Arabic (Lebanon)
+
+ENDKBD
